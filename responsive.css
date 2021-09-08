@@ -1,0 +1,158 @@
+
+/* Media query for menu */
+
+@media all and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        background: #635e59;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        transition:  .5s;
+        display: block;
+        z-index: 9;
+
+    }
+
+    .show-nav{
+        left: 0%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    nav ul li a {
+        color: #fff;
+        
+    }
+
+    .manuIcon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .footer-col-3, .footer-col-4 {
+        text-align: left;
+    }
+
+    .g-img img {
+        width: 110px;
+        height: 115px;
+    }
+    
+    .glary-1-wh  {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+
+/* Media query for the less than 600 */
+
+@media all and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 100%;
+    }
+
+    .order1{
+        order: -1;
+        margin-bottom: -40px;
+        margin-top: -80px;
+    }
+
+    .single-product select {
+        display: inline-block;
+        padding: 13px 10px 8px;
+        margin-right: 10px;
+         
+    }
+
+    .R-t h1 {
+        font-size: 25px !important;
+        line-height: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .cart-info p {
+        display: none;
+    }
+
+    .col-2 img {
+        max-width: 100%;
+        padding: 20px 0;
+    }
+
+    .paddcl2 {
+        margin-bottom: 40px;
+    }
+
+    .col-4 img {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .g-img img {
+        width: 100px;
+        height: 99px;
+    }
+    
+    .glary-1-wh  {
+        width: 100%;
+        height: 440px;
+    }
+
+    #preloader {
+        background-size: 120px;
+    }
+
+   
+}
+
+@media all and (max-width: 500px) {
+    .footer-col-1,
+    .footer-col-2,
+    .footer-col-3,
+    .footer-col-4 {
+        flex-basis: 100%;
+        text-align: left;
+    }
+
+    .brands {
+        margin: 40px auto;
+    }
+
+    .g-img img {
+        width: 90px;
+        height: 80px;
+    }
+    
+    .glary-1-wh  {
+        width: 100%;
+        height: 390px;
+    }
+
+    .query {
+        right: 30px;
+        bottom: 55px;
+        font-size: 40px;
+    }
+
+}
+
